@@ -1,0 +1,77 @@
+.dark{
+  --background: #262c36;
+  --text-color: #eee;
+  --text-color2: #f1f1f1;
+  --profile-cover: #202b47;
+  --text-box: hsla(0,0%,95%,.1);
+  --vd-control-bar: #2c3d4f;
+  --avatar: rgba(212,132,50,.2);
+  --select-cont: hsla(0,0%,93%,.2);
+  --progress-color: #2c3d4f;
+  --second-white: #15181e;
+  --brand-color: #f3912e;
+  --brand-color-text: hsla(0,0%,100%,.95);
+  --brand-color-shade: rgba(243,145,46,.1);
+  --border-color: hsla(0,0%,100%,.1);
+  --shadow2: 0 0 15px hsla(0,0%,100%,.2);
+  --card-normal: #fff9f3;
+  --heading: hsla(0,0%,100%,.85);
+  --sub-heading: hsla(0,0%,100%,.7);
+  --paragraph: hsla(0,0%,100%,.75);
+  --second-button: hsla(0,0%,100%,.95);
+  --second-button-text: rgba(8,15,15,.95);
+}
+
+.light {
+  --background: #fff;
+  --text-color: #222831;
+  --profile-cover: #fff;
+  --text-color2: #2c3d4f;
+  --text-box: rgba(34,40,49,.1);
+  --vd-control-bar: #f1f1f1;
+  --avatar: #f3912e;
+  --select-cont: rgba(34,40,49,.2);
+  --progress-color: rgba(34,40,49,.2);
+  --brand-color: #f3912e;
+  --brand-color-text: hsla(0,0%,100%,.95);
+  --brand-color-shade: rgba(243,145,46,.1);
+  --second-white: #f2f5fa;
+  --border-color: rgba(10,30,50,.1);
+  --shadow1: 0 0 12px rgba(10,30,50,.15);
+  --shadow2: 0 0 15px rgba(10,30,50,.2);
+  --shadow3: 0 0 20px rgba(10,30,50,.25);
+  --card-normal: #fff9f3;
+  --card-shadow: 0 0 8px rgba(10,30,50,.1);
+  --card-shadow-hover: 0 5px 16px rgba(10,30,50,.15);
+  --heading: rgba(8,15,15,.85);
+  --sub-heading: rgba(8,15,15,.7);
+  --paragraph: rgba(8,15,15,.75);
+  --second-button: rgba(8,15,15,.85);
+  --second-button-text: hsla(0,0%,100%,.95);
+}
+
+.common {
+  --menu-back: #f1f1f1;
+  --menu-item: #2c3d4f;
+  --menu-hover: rgba(44,61,79,.2);
+  --success-color: #2cda94;
+  --common-text-color: #fff;
+  --sidebar-tab-active: #f3912e;
+  --sidebar-tab-hover: rgba(212,132,50,.2);
+  --heat-map-empty: var(--background);
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  overflow-y: auto;
+  background-color: var(--second-white);
+  font-family: sans-serif!important;
+}
+
+input:focus,
+input:hover {
+  border-width: 0;
+}
+

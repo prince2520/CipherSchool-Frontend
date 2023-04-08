@@ -1,0 +1,34 @@
+.card-container {
+  width: 12.5rem;
+  background-color: var(--background);
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  border-radius: 1rem;
+}
+.card-container .profile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.25rem;
+  color: var(--heading);
+}
+.card-container button {
+  width: 100%;
+  border: #f3912e;
+  padding: 0.25rem 0;
+  border-radius: 0.25rem;
+  background: var(--heading);
+}
+.card-container .profile-img-container {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #f3912e;
+}
+
+/*# sourceMappingURL=Card.css.map */

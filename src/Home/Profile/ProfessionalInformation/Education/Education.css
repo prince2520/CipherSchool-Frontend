@@ -1,0 +1,20 @@
+.education-section {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+  color: var(--text-color2);
+}
+.education-section .options-container {
+  color: var(--paragraph);
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--background);
+  border-radius: 0.5rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=Education.css.map */

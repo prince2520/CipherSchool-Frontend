@@ -1,0 +1,112 @@
+.profile-page {
+  position: relative;
+
+
+  .profile-page-user-box {
+    position: sticky;
+    top: 3.8rem;
+    width: 100%;
+
+    background: var(--profile-cover);
+
+    .profile-page-user-box-back {
+      background: url("https://www.cipherschools.com/static/media/ProfileCover.e525f2d51356332792cb.png");
+
+
+      .profile-page-user-box-back-content {
+        background: linear-gradient(to right,var(--background),transparent,var(--background));
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .profile-page-user-box-left {
+
+          display: flex;
+          flex-direction: row;
+          column-gap: 1rem;
+          justify-content: center;
+          align-items: center;
+
+          .profile-img-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .profile-img {
+              width: 5rem;
+              height: 5rem;
+              border-radius: 50%;
+              background-color: var(--sidebar-tab-active);
+            }
+
+            .profile-img-edit {
+
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 0.25rem;
+              border-radius: 50%;
+              background-color: #202b47;
+              position: absolute;
+              bottom: -0.5rem;
+            }
+
+
+          }
+
+          .user-detail {
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            row-gap: 0.25rem;
+          }
+
+        }
+      ;
+
+        .profile-page-user-box-right {
+          color: var(--heading);
+        }
+
+      }
+
+
+    }
+
+
+  }
+}
+
+
+.about-me-section,
+.onTheWeb-section,
+.professional-info-section,
+.password-security-section,
+.interests-section, {
+  //margin-bottom: 10rem;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  border:1px solid var(--border-color);
+
+
+  .about-me-section-top,
+  .onTheWeb-section-top,
+  .professional-info-section-top,
+  .password-security-section-top,
+  .interests-section-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-color2);
+    }
+  }
+
+}

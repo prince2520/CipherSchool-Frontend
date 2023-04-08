@@ -1,0 +1,130 @@
+.profile-page {
+  position: relative;
+}
+.profile-page .profile-page-user-box {
+  position: sticky;
+  top: 3.8rem;
+  width: 100%;
+  background: var(--profile-cover);
+}
+.profile-page .profile-page-user-box .profile-page-user-box-back {
+  background: url("https://www.cipherschools.com/static/media/ProfileCover.e525f2d51356332792cb.png");
+}
+.profile-page .profile-page-user-box .profile-page-user-box-back .profile-page-user-box-back-content {
+  background: linear-gradient(to right, var(--background), transparent, var(--background));
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-page .profile-page-user-box .profile-page-user-box-back .profile-page-user-box-back-content .profile-page-user-box-left {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.profile-page .profile-page-user-box .profile-page-user-box-back .profile-page-user-box-back-content .profile-page-user-box-left .profile-img-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-page .profile-page-user-box .profile-page-user-box-back .profile-page-user-box-back-content .profile-page-user-box-left .profile-img-container .profile-img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: var(--sidebar-tab-active);
+}
+.profile-page .profile-page-user-box .profile-page-user-box-back .profile-page-user-box-back-content .profile-page-user-box-left .profile-img-container .profile-img-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+  border-radius: 50%;
+  background-color: #202b47;
+  position: absolute;
+  bottom: -0.5rem;
+}
+.profile-page .profile-page-user-box .profile-page-user-box-back .profile-page-user-box-back-content .profile-page-user-box-left .user-detail {
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+}
+.profile-page .profile-page-user-box .profile-page-user-box-back .profile-page-user-box-back-content .profile-page-user-box-right {
+  color: var(--heading);
+}
+
+.about-me-section,
+.onTheWeb-section,
+.professional-info-section,
+.password-security-section,
+.interests-section {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  border: 1px solid var(--border-color);
+}
+.about-me-section .about-me-section-top,
+.about-me-section .onTheWeb-section-top,
+.about-me-section .professional-info-section-top,
+.about-me-section .password-security-section-top,
+.about-me-section .interests-section-top,
+.onTheWeb-section .about-me-section-top,
+.onTheWeb-section .onTheWeb-section-top,
+.onTheWeb-section .professional-info-section-top,
+.onTheWeb-section .password-security-section-top,
+.onTheWeb-section .interests-section-top,
+.professional-info-section .about-me-section-top,
+.professional-info-section .onTheWeb-section-top,
+.professional-info-section .professional-info-section-top,
+.professional-info-section .password-security-section-top,
+.professional-info-section .interests-section-top,
+.password-security-section .about-me-section-top,
+.password-security-section .onTheWeb-section-top,
+.password-security-section .professional-info-section-top,
+.password-security-section .password-security-section-top,
+.password-security-section .interests-section-top,
+.interests-section .about-me-section-top,
+.interests-section .onTheWeb-section-top,
+.interests-section .professional-info-section-top,
+.interests-section .password-security-section-top,
+.interests-section .interests-section-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-me-section .about-me-section-top span,
+.about-me-section .onTheWeb-section-top span,
+.about-me-section .professional-info-section-top span,
+.about-me-section .password-security-section-top span,
+.about-me-section .interests-section-top span,
+.onTheWeb-section .about-me-section-top span,
+.onTheWeb-section .onTheWeb-section-top span,
+.onTheWeb-section .professional-info-section-top span,
+.onTheWeb-section .password-security-section-top span,
+.onTheWeb-section .interests-section-top span,
+.professional-info-section .about-me-section-top span,
+.professional-info-section .onTheWeb-section-top span,
+.professional-info-section .professional-info-section-top span,
+.professional-info-section .password-security-section-top span,
+.professional-info-section .interests-section-top span,
+.password-security-section .about-me-section-top span,
+.password-security-section .onTheWeb-section-top span,
+.password-security-section .professional-info-section-top span,
+.password-security-section .password-security-section-top span,
+.password-security-section .interests-section-top span,
+.interests-section .about-me-section-top span,
+.interests-section .onTheWeb-section-top span,
+.interests-section .professional-info-section-top span,
+.interests-section .password-security-section-top span,
+.interests-section .interests-section-top span {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-color2);
+}
+
+/*# sourceMappingURL=Profile.css.map */

@@ -1,0 +1,30 @@
+.social-input {
+  width: 49%;
+}
+.social-input label {
+  color: var(--text-color2);
+  font-size: 1rem;
+}
+.social-input .input-container {
+  margin-top: 0.25rem;
+  background-color: var(--background);
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+  display: flex;
+  column-gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+.social-input .input-container input {
+  outline: none;
+  background: transparent;
+  border: none;
+  color: var(--paragraph);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  width: 100%;
+}
+
+/*# sourceMappingURL=SocialInput.css.map */

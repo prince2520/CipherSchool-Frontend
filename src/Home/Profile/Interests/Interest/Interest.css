@@ -1,0 +1,10 @@
+.interest-box {
+  color: var(--brand-color);
+  background-color: var(--brand-color-shade);
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+/*# sourceMappingURL=Interest.css.map */

@@ -1,0 +1,40 @@
+.cipher-map-box {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+}
+.cipher-map-box .heading {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-color2);
+}
+.cipher-map-box .cipher-map-values {
+  position: relative;
+  top: -2rem;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 0.25rem;
+  align-items: center;
+  color: var(--text-color);
+  font-size: 1em;
+  padding: 0 8px;
+}
+.cipher-map-box .react-calendar-heatmap .color-scale-0 {
+  fill: var(--background);
+}
+.cipher-map-box .react-calendar-heatmap .color-scale-1 {
+  fill: #fce4cb;
+}
+.cipher-map-box .react-calendar-heatmap .color-scale-2 {
+  fill: #f9c897;
+}
+.cipher-map-box .react-calendar-heatmap .color-scale-3 {
+  fill: #f6ad62;
+}
+.cipher-map-box .react-calendar-heatmap .color-scale-4 {
+  fill: #f3912e;
+}
+
+/*# sourceMappingURL=CipherMap.css.map */
