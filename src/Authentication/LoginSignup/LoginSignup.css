@@ -1,7 +1,138 @@
 .login-signup-container {
   width: 80%;
   max-width: 35rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
   background: var(--background);
+  padding: 2.5rem 1.5rem;
+  z-index: 260;
+}
+.login-signup-container .login-signup-container-top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.25rem 0.75rem;
+  align-items: center;
+}
+.login-signup-container .login-signup-container-top .heading {
+  font-weight: 600;
+  color: var(--text-color2);
+}
+.login-signup-container .login-signup-container-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.5rem;
+  width: 100%;
+}
+.login-signup-container .login-signup-container-bottom .login-signup-container-bottom-top .form-logo {
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: var(--fw-bold);
+  margin: 0.5rem 0.75rem;
+}
+.login-signup-container .login-signup-container-bottom .login-signup-container-bottom-top .form-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.35rem;
+  color: var(--heading);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.login-signup-container .login-signup-container-bottom .login-signup-container-bottom-bottom {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-signup-container .login-signup-container-bottom .login-signup-container-bottom-bottom .signup-form,
+.login-signup-container .login-signup-container-bottom .login-signup-container-bottom-bottom .login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.75rem;
+  max-width: 25rem;
+  width: 100%;
+}
+.login-signup-container .login-signup-container-bottom .login-signup-container-bottom-bottom .signup-form button,
+.login-signup-container .login-signup-container-bottom .login-signup-container-bottom-bottom .login-form button {
+  width: 100%;
+  align-items: center;
+  background: var(--sidebar-tab-active);
+  border: none;
+  border-radius: 5rem;
+  color: var(--common-text-color);
+  cursor: pointer;
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+  margin: 5px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.login-signup-container .login-signup-container-bottom .login-signup-container-bottom-bottom .signup-form .input-container,
+.login-signup-container .login-signup-container-bottom .login-signup-container-bottom-bottom .login-form .input-container {
+  width: 100%;
+  background: var(--second-white);
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  padding: 0.25rem 1rem;
+}
+.login-signup-container .login-signup-container-bottom .login-signup-container-bottom-bottom .signup-form .input-container input,
+.login-signup-container .login-signup-container-bottom .login-signup-container-bottom-bottom .login-form .input-container input {
+  outline: none;
+  border: none;
+  width: 100%;
+  background: var(--second-white);
+  color: var(--text-color2);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.login-signup-container .login-signup-container-bottom .form-change {
+  display: flex;
+  align-items: center;
+  column-gap: 0.2rem;
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.login-signup-container .login-signup-container-bottom .or-bar {
+  max-width: 22rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-signup-container .login-signup-container-bottom .or-bar hr {
+  width: 100%;
+  border: 1px solid var(--select-cont);
+}
+.login-signup-container .login-signup-container-bottom .or-bar .or-box {
+  position: absolute;
+  background-color: var(--background);
+  color: var(--text-color2);
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=LoginSignup.css.map */

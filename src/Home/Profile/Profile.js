@@ -6,8 +6,12 @@ import ProfessionalInformation from "./ProfessionalInformation/ProfessionalInfor
 import PasswordSecurity from "./PasswordSecurity/PasswordSecurity";
 import Interests from "./Interests/Interests";
 import CipherMap from "./CipherMap/CipherMap";
+import {useContext} from "react";
+import AuthContext from "../../Context/authCtx";
 
 const Profile = () => {
+    const authCtx = useContext(AuthContext);
+
     return (
         <div className='profile-page'>
             <div className="profile-page-user-box">
@@ -24,9 +28,9 @@ const Profile = () => {
                             </div>
                             <div className="user-detail">
                                 <span>Hello, </span>
-                                <span style={{fontWeight: 'var(--fw-bold)'}}>029 Prince</span>
+                                <span style={{fontWeight: 'var(--fw-bold)'}}>{authCtx.first_name + ' ' + authCtx.last_name} </span>
 
-                                <span>prince6221p@gmail.com</span>
+                                <span>{authCtx.email}</span>
                             </div>
                         </div>
                         <div className="profile-page-user-box-right">

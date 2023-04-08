@@ -7,6 +7,12 @@
   resize: none;
   background: var(--background);
   border: none;
+  color: var(--paragraph);
+  display: flex;
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 1.5;
+  overflow: hidden auto;
 }
 
 /*# sourceMappingURL=AboutMe.css.map */

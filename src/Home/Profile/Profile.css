@@ -3,8 +3,9 @@
 }
 .profile-page .profile-page-user-box {
   position: sticky;
-  top: 3.8rem;
+  top: 4.55rem;
   width: 100%;
+  z-index: 150;
   background: var(--profile-cover);
 }
 .profile-page .profile-page-user-box .profile-page-user-box-back {

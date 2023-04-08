@@ -1,0 +1,38 @@
+.sidebar-tab{
+  padding: 6rem 0.5rem 2rem 0.5rem;
+  width: 4.5rem;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 140;
+  background-color: var(--background);
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .category-box-top,
+  .category-box-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+
+    .category-box{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 0.5rem;
+      align-items: center;
+      color: var(--text-color);
+      font-size: 0.65rem;
+      font-weight: 550;
+
+    }
+  }
+
+
+
+}
