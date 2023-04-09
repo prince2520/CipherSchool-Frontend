@@ -1,0 +1,10 @@
+.update-interest-container .update-interest-container-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 0.75rem;
+  row-gap: 0.75rem;
+}
+
+/*# sourceMappingURL=UpdateInterest.css.map */

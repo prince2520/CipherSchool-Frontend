@@ -5,44 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ceee1072-4123-4944-9269-39f0d404a66c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Authentication/LoginSignup/LoginForm/LoginForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Authentication/LoginSignup/SignUpForm/SignUpForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Context/authCtx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Helper/Sidebar/Sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Helper/Sidebar/Sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/NotAuthPage/NotAuthPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/NotAuthPage/NotAuthPage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/overlay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/ChangeMode/ChangeMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/ChangeMode/ChangeMode.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/PasswordChange/PasswordChange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/PasswordChange/PasswordChange.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/ProfileUpdate/ProfileUpdate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/ProfileUpdate/ProfileUpdate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/UpdateInterest/InterestOption/InterestOption.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/UpdateInterest/InterestOption/InterestOption.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/UpdateInterest/UpdateInterest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/UpdateInterest/UpdateInterest.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Authentication/LoginSignup/LoginSignup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authentication/LoginSignup/LoginSignup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Authentication/LoginSignup/LoginSignup.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authentication/LoginSignup/LoginSignup.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Authentication/LoginSignup/LoginSignup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authentication/LoginSignup/LoginSignup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Authentication/LoginSignup/LoginSignup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authentication/LoginSignup/LoginSignup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Helper/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper/Navbar/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Helper/Navbar/Navbar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper/Navbar/Navbar.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Authentication/LoginSignup/SignUpForm/SignUpForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authentication/LoginSignup/SignUpForm/SignUpForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Context/authCtx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context/authCtx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helper/Button/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helper/Button/Button.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helper/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helper/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Helper/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper/Navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Helper/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper/Navbar/Navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Helper/Overlay/Overlay.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper/Overlay/Overlay.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Helper/Overlay/Overlay.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper/Overlay/Overlay.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Helper/Overlay/Overlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper/Overlay/Overlay.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Helper/Overlay/Overlay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper/Overlay/Overlay.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Home.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Profile/AboutMe/AboutMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/AboutMe/AboutMe.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Profile/AboutMe/AboutMe.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/AboutMe/AboutMe.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Profile/AboutMe/AboutMe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/AboutMe/AboutMe.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Profile/AboutMe/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/AboutMe/AboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Profile/Interests/Interests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/Interests/Interests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Profile/OnTheWeb/OnTheWeb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/OnTheWeb/OnTheWeb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Profile/OnTheWeb/SocialInput/SocialInput.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/OnTheWeb/SocialInput/SocialInput.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Profile/OnTheWeb/SocialInput/SocialInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/OnTheWeb/SocialInput/SocialInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Profile/OnTheWeb/SocialInput/SocialInput.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/OnTheWeb/SocialInput/SocialInput.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Profile/PasswordSecurity/PasswordSecurity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/PasswordSecurity/PasswordSecurity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Profile/ProfessionalInformation/Education/Education.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/ProfessionalInformation/Education/Education.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Profile/ProfessionalInformation/Education/Education.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/ProfessionalInformation/Education/Education.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Profile/ProfessionalInformation/Education/Education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/ProfessionalInformation/Education/Education.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Profile/ProfessionalInformation/Education/Education.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/ProfessionalInformation/Education/Education.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Profile/ProfessionalInformation/ProfessionalInformation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/ProfessionalInformation/ProfessionalInformation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home/Profile/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/Profile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home/Profile/Profile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/Profile.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home/Profile/Profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Profile/Profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materials/LogoSvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/overlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/overlay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +88,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Project/Backend",
+    "last_opened_file_path": "D:/Project/Frontend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,6 +98,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\Frontend\src\Helper" />
+      <recent name="D:\Project\Frontend\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,7 +114,8 @@
       <updated>1680938639676</updated>
       <workItem from="1680938640888" duration="22371000" />
       <workItem from="1680968697891" duration="14000" />
-      <workItem from="1680968759369" duration="10414000" />
+      <workItem from="1680968759369" duration="11257000" />
+      <workItem from="1681016102843" duration="41281000" />
     </task>
     <servers />
   </component>

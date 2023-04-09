@@ -10,12 +10,13 @@ import {useContext} from "react";
 import AuthContext from "./Context/authCtx";
 
 function App() {
-    const showLoginSignUpModel = useSelector((state=>state.overlay.showLoginSignUpModel));
+    const showOverlay = useSelector((state=>state.overlay.showOverlay));
     const authCtx = useContext(AuthContext);
+    const darkMode = useSelector(state => state.common.darkMode)
 
     return (
-        <div className="App dark common">
-            {showLoginSignUpModel && <Overlay/>}
+        <div className={`App ${darkMode ? 'dark' : 'light'} common`}>
+            {showOverlay && <Overlay/>}
             <Routes>
                 <Route path='/' element={<Home/>}>
                     <Route path='profilepage/my-profile' element={!authCtx.isAuth ? <NotAuthPage/> : <Profile/>}/>

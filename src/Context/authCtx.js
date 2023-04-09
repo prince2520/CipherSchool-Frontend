@@ -19,6 +19,8 @@ const AuthContext = React.createContext({
     email: '',
     first_name: '',
     last_name: '',
+    user_id: '',
+    token:''
 });
 
 export const AuthContextProvider = (props) => {
@@ -26,6 +28,8 @@ export const AuthContextProvider = (props) => {
     const [email, setEmail] = useState('');
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
+    const [userId, setUserId] = useState('');
+    const [token, setToken] = useState(null);
     const dispatch = useDispatch();
 
     const navigate = useNavigate();
@@ -65,10 +69,13 @@ export const AuthContextProvider = (props) => {
         })
             .then(res => res.json())
             .then(result => {
-                dispatch(OverlayActions.closeOverlayHandler());
+                console.log('user', result);
                 setFirstName(result.first_name)
                 setLastName(result.last_name)
                 setEmail(result.email)
+                setUserId(result.user_id);
+                setToken(result.token)
+                dispatch(OverlayActions.closeOverlayHandler());
                 setIsAuth(result.isAuth)
             })
             .catch(err => console.log(err));
@@ -92,7 +99,9 @@ export const AuthContextProvider = (props) => {
             isAuth: isAuth,
             email: email,
             first_name: firstName,
-            last_name: lastName
+            last_name: lastName,
+            user_id: userId,
+            token: token
         }}>
             {props.children}
         </AuthContext.Provider>

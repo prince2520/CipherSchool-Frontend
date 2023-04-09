@@ -1,0 +1,14 @@
+.interest-options {
+  width: 47%;
+  color: var(--heading);
+  font-size: 0.9rem;
+  font-weight: var(--fw-medium);
+  border-radius: 8px;
+  background-color: var(--second-white);
+  padding: 0.25rem 0.5rem;
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+}
+
+/*# sourceMappingURL=InterestOption.css.map */

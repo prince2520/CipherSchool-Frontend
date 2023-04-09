@@ -1,0 +1,21 @@
+.input-container {
+  width: 100%;
+  background: var(--second-white);
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  padding: 0.25rem 1rem;
+}
+.input-container input {
+  outline: none;
+  border: none;
+  width: 100%;
+  background: var(--second-white);
+  color: var(--text-color2);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=input.css.map */

@@ -3,6 +3,7 @@ import Logo from '../../Materials/Logo.png'
 
 import './Navbar.scss';
 import {Icon} from "@iconify/react";
+import ChangeMode from "../ChangeMode/ChangeMode";
 
 const Navbar = () => {
     return (
@@ -33,6 +34,7 @@ const Navbar = () => {
                     <img src={Logo} style={{height:'1.5rem'}}/>
                     <span>0</span>
                 </div>
+                <ChangeMode/>
             </div>
 
         </div>

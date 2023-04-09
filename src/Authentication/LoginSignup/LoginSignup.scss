@@ -1,4 +1,5 @@
-.login-signup-container{
+.login-signup-container,
+.profile-update-container{
   width: 80%;
   max-width: 35rem;
   border-radius: 1.5rem;
@@ -13,7 +14,8 @@
 
   z-index: 260;
 
-  .login-signup-container-top {
+  .login-signup-container-top,
+  .profile-update-container-top {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -95,27 +97,6 @@
           margin: 5px 0;
           font-size: 1.1rem;
           font-weight: 600;
-        }
-
-        .input-container{
-          width: 100%;
-          background: var(--second-white);
-          display: flex;
-          justify-content: space-between;
-          border: 1px solid var(--border-color);
-          border-radius: 0.5rem;
-          height: 2.5rem;
-          padding: 0.25rem 1rem;
-
-          input{
-            outline: none;
-            border: none;
-            width: 100%;
-            background: var(--second-white);
-            color: var(--text-color2);
-            font-size: 1rem;
-            font-weight: 500;
-          }
         }
 
       }

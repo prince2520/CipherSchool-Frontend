@@ -21,6 +21,9 @@
   --second-button: hsla(0,0%,100%,.95);
   --second-button-text: rgba(8,15,15,.95);
 }
+.dark .cancel-btn {
+  color: #000;
+}
 
 .light {
   --background: #fff;
@@ -49,6 +52,9 @@
   --second-button: rgba(8,15,15,.85);
   --second-button-text: hsla(0,0%,100%,.95);
 }
+.light .cancel-btn {
+  color: #fff;
+}
 
 .common {
   --menu-back: #f1f1f1;
@@ -68,6 +74,28 @@
   overflow-y: auto;
   background-color: var(--second-white);
   font-family: sans-serif !important;
+}
+.App .profile-img-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App .profile-img-container .profile-img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: var(--sidebar-tab-active);
+}
+.App .profile-img-container .profile-img-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+  border-radius: 50%;
+  background-color: #202b47;
+  position: absolute;
+  bottom: -0.5rem;
 }
 
 input:focus,

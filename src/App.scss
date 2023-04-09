@@ -20,6 +20,10 @@
   --paragraph: hsla(0,0%,100%,.75);
   --second-button: hsla(0,0%,100%,.95);
   --second-button-text: rgba(8,15,15,.95);
+
+  .cancel-btn {
+    color: #000;
+  }
 }
 
 .light {
@@ -48,6 +52,10 @@
   --paragraph: rgba(8,15,15,.75);
   --second-button: rgba(8,15,15,.85);
   --second-button-text: hsla(0,0%,100%,.95);
+
+  .cancel-btn {
+    color: #fff;
+  }
 }
 
 .common {
@@ -68,6 +76,34 @@
   overflow-y: auto;
   background-color: var(--second-white);
   font-family: sans-serif!important;
+
+  .profile-img-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .profile-img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+      background-color: var(--sidebar-tab-active);
+    }
+
+    .profile-img-edit {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.25rem;
+      border-radius: 50%;
+      background-color: #202b47;
+      position: absolute;
+      bottom: -0.5rem;
+    }
+
+
+  }
 }
 
 input:focus,

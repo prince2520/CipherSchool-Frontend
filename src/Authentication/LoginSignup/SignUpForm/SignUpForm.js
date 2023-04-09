@@ -1,7 +1,6 @@
 import {Icon} from "@iconify/react";
 import {useContext, useState} from "react";
 import AuthCtx from "../../../Context/authCtx";
-
 const SignUpForm = () =>{
     const [showPassword, setShowPassword] = useState(false);
     const authCtx = useContext(AuthCtx);

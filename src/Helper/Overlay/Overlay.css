@@ -15,5 +15,40 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+.overlay-page .password-change-container,
+.overlay-page .update-interest-container,
+.overlay-page .profile-update-container-bottom {
+  z-index: 150;
+  width: 80%;
+  max-width: 27rem;
+  padding: 3rem 2rem;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 0.65rem;
+  border-radius: 0.5rem;
+}
+.overlay-page .password-change-container .button-container,
+.overlay-page .update-interest-container .button-container,
+.overlay-page .profile-update-container-bottom .button-container {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  column-gap: 0.5rem;
+}
+.overlay-page .password-change-container .button-container button,
+.overlay-page .update-interest-container .button-container button,
+.overlay-page .profile-update-container-bottom .button-container button {
+  font-size: 1rem;
+}
+.overlay-page .password-change-container .button-container .cancel,
+.overlay-page .update-interest-container .button-container .cancel,
+.overlay-page .profile-update-container-bottom .button-container .cancel {
+  background-color: var(--heading);
+}
 
 /*# sourceMappingURL=Overlay.css.map */

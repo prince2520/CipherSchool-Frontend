@@ -8,6 +8,9 @@ import {useState} from "react";
 import {OverlayActions} from "../../store/overlay";
 import {useDispatch} from "react-redux";
 
+import '../../input.scss';
+
+
 const LoginSignup = () => {
     const [loginSelected, setLoginSelected] = useState(true);
     const dispatch = useDispatch();

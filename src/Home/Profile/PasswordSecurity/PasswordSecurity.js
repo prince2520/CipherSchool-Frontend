@@ -1,13 +1,20 @@
 import './PasswordSecurity.scss';
 import Button from "../../../Helper/Button/Button";
+import {useDispatch} from "react-redux";
+import {OverlayActions} from "../../../store/overlay";
+import {buttonStatus} from "../../../common";
+
+import '../../../Button.scss';
 
 
-const OnTheWeb = () => {
+const PasswordSecurity = () => {
+    const dispatch = useDispatch();
+
     return (
         <div className="password-security-section">
             <div className="password-security-section-top">
                 <span className="heading">PASSWORD & SECURITY</span>
-                <Button/>
+                <button className='edit-save' onClick={()=>dispatch(OverlayActions.showPasswordChangeModelHandler())}>{buttonStatus[2]}</button>
             </div>
             <div className="password-security-bottom">
                 <label htmlFor="password">Password</label>
@@ -17,4 +24,4 @@ const OnTheWeb = () => {
     )
 }
 
-export default OnTheWeb;
+export default PasswordSecurity;

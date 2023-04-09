@@ -29,34 +29,6 @@
           justify-content: center;
           align-items: center;
 
-          .profile-img-container {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            .profile-img {
-              width: 5rem;
-              height: 5rem;
-              border-radius: 50%;
-              background-color: var(--sidebar-tab-active);
-            }
-
-            .profile-img-edit {
-
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              padding: 0.25rem;
-              border-radius: 50%;
-              background-color: #202b47;
-              position: absolute;
-              bottom: -0.5rem;
-            }
-
-
-          }
-
           .user-detail {
             color: var(--text-color);
             display: flex;
@@ -64,8 +36,28 @@
             row-gap: 0.25rem;
           }
 
+        };
+        .profile-img-container{
+          .profile-img{
+            width: 5rem;
+            height: 5rem;
+            border-radius: 50%;
+            background-color: black;
+            overflow: hidden;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
         }
-      ;
+
 
         .profile-page-user-box-right {
           color: var(--heading);
